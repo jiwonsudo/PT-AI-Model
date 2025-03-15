@@ -12,11 +12,23 @@
         <label>키(cm): <input type="number" id="height" required></label><br>
         <label>몸무게(kg): <input type="number" id="weight" required></label><br>
         <label>나이: <input type="number" id="age" required></label><br>
-        <label>운동량 (1~3): <input type="number" id="activity_level" required></label><br>
+				<label>성별: 
+            <select id="goal">
+                <option value="0">남성</option>
+                <option value="1">여성</option>
+            </select>
+        </label><br>
+        <label>운동량 (1~5): <input type="number" id="activity_level" required></label><br>
         <label>운동 목표: 
             <select id="goal">
                 <option value="0">체중 감량</option>
                 <option value="1">근육 증가</option>
+								<option value="2">지구력 향상</option>
+								<option value="3">유연성 향상</option>
+								<option value="4">균형과 코어 강도 증가</option>
+								<option value="5">심폐 기능 향상</option>
+								<option value="6">스트레스 해소 및 정신 건강</option>
+								<option value="7">부상 예방 및 회복</option>
             </select>
         </label><br>
         <button type="submit">추천 받기</button>
